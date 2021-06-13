@@ -92,7 +92,6 @@ function App() {
       <Navbar className="navbar" style={{ backgroundColor: 'white' }}>
         <Navbar.Brand>
           <Image src={LOGO.default} alt='logo' className="logo" />
-          {/* <strong style={{ color: 'white', fontSize: '30px' }}>Shoes Shop</strong> */}
         </Navbar.Brand>
       </Navbar>
       <div className="body">

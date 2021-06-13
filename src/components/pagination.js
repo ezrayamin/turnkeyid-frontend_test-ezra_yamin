@@ -3,9 +3,10 @@ import { ListGroup } from 'react-bootstrap'
 
 const Pagination = ({ dataPerPage, totalData, changePage, current }) => {
     const pageNumbers = []
-
+    const maxNumber = Math.ceil(totalData / dataPerPage)
     let numbers = 1
-    while (numbers <= Math.ceil(totalData / dataPerPage)) {
+    
+    while (numbers <= maxNumber) {
         pageNumbers.push(numbers)
         numbers++
     }
