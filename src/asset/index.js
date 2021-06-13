@@ -1,0 +1,1 @@
+export const LOGO = require('./logo_200x90.jpg')
