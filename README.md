@@ -27,18 +27,13 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.
 
 # How to use this app
-you will get 20 random users, but the data will not refresh if you reload the page
-you could also sort the data based on the their names, both in an ascending and descending manners
-![1](https://user-images.githubusercontent.com/73160378/121802462-25ffa580-cbf1-11eb-9670-4f0e3ba8e2e3.jpg)
+available features:
+- landing page
+![Screenshot (51)](https://user-images.githubusercontent.com/73160378/123950914-130f0400-d959-11eb-8c3d-5e9bb10d878d.png)
+- login page
+![Screenshot (52)](https://user-images.githubusercontent.com/73160378/123950949-1904e500-d959-11eb-91c8-aa6423213d44.png)
+- organization's personnel dashboard (CRUD)
+- ![Screenshot (53)](https://user-images.githubusercontent.com/73160378/123950973-1d310280-d959-11eb-9f89-56b56df2f5a0.png)
 
-click each profile to get their full information: full name, phone number, email, and country
-![2](https://user-images.githubusercontent.com/73160378/121802524-aa522880-cbf1-11eb-9313-703767da506d.jpg)
 
-you could also use pagination, with each page showing a maximum of 8 profiles
-![3](https://user-images.githubusercontent.com/73160378/121802547-c9e95100-cbf1-11eb-8117-0579139b3d6d.jpg)
-
-this is a responsive website
-
-![4](https://user-images.githubusercontent.com/73160378/121802640-2d737e80-cbf2-11eb-87a9-6c5e811baea3.jpg)
-
-That's all, thank you.
+Thank you.
