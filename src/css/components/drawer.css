@@ -1,0 +1,15 @@
+.drawer-container {
+    background-color: #081422;
+    color: white;
+    flex-basis: 25%;
+    padding-top: 2em;
+    padding-left: 5px;
+}
+.drawer-container:hover {
+   cursor: pointer;
+}
+#manage-icon, #sales-icon, #user-icon, #invoice-icon {
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #292929;
+}
+
+#centers-container {
+    margin-left: 8em;
+    border-bottom: 2px solid white;
+}
+
+.centers {
+    color: white;
+    font-size: 1.75em;
+}
+
+.centers:hover {
+    color: orange;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+#end-container {
+    margin-right: 5em;
+}
+
+#icon-right {
+    margin-left: 5px;
+}
+
+.userGreetings-container {
+    color: orange;
+    display: flex;
+    margin-right: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.profpic {
+    width: 40px;
+    border: 1px solid #d3d3d3;
+    margin-left: 1em;
+  }

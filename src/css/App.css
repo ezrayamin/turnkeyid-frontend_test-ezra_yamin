@@ -1,6 +1,7 @@
 .App {
-  background-color: #e8e8e8;
+  background-color: #161d25;
   padding: '20 10 20 10';
+  height: 100vh;
   /* min-height: 100%; */
 }
 #spinner {
@@ -29,15 +30,14 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
-  color: #575997;
   margin-bottom: 0.75em;
 }
 
 .font-displayname {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.75rem;
   font-weight: bold;
-  color: #575997;
+  color: orange;
   /* margin-top: 0.5em; */
 }
 
@@ -49,11 +49,37 @@
 }
 .font-detail {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
-  /* margin-top: -10px; */
+  /* margin-bottom: -15px; */
 }
 
+.edit-forms {
+  margin-bottom: 1em;
+  margin-top: -5px;
+  font-size: 0.75rem;
+}
+
+.confedit-buttons {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border:0;
+  width: 5em;
+  text-align: center;
+}
+
+.canceledit-buttons {
+  color: orange;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border:1px solid orange;
+  width: 5em;
+  text-align: center;
+  
+}
 .dropdown-container {
   position: fixed;
   width:18%;
@@ -94,8 +120,7 @@
 .body {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding-top :5em;
+  justify-content: space-between;
   min-height: 450px;
   
 }
@@ -107,7 +132,64 @@
 
 .list-container {
   display: flex;
-  flex-basis: 70%;
+  flex-direction: column;
+  /* flex-basis: 70%; */
+  padding: 1em 3em 1em 3em;
+}
+
+.addButton-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 1em;
+  /* padding-right: 2em; */
+}
+
+.add-button {
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1em;
+  min-height: 7vh;
+  padding: 0 1em 0 1em;
+}
+
+#add-icon {
+  margin-right: 1em;
+}
+table {
+  text-align: left;
+  overflow: hidden;
+}
+thead {
+  border-collapse: collapse;
+  text-align: left;
+  box-shadow: 0 5px 10px #474747;
+  color: white;
+  /* font-weight: 200; */
+  /* padding: 1rem 2rem; */
+}
+
+tr:nth-child(even){
+  color: white;
+  background: #474747;
+ }
+
+tr:nth-child(odd){
+  color: white;
+ }
+
+.tableButtons-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 4em;
+}
+
+#edit-icon:hover, #delete-icon:hover {
+  cursor: pointer;
 }
 
 .list-wrapper {
@@ -123,16 +205,18 @@
 
 .user-card {
   width: 20%;
-  /* min-height: 100%; */
-  margin: 0 10px 10px 10px;
-  background-color: white;
-  border-radius: 15px;
+  margin-right: 2.2em;
+}
+
+.id-container {
+  display: flex;
 }
 
 .card-body {
-  /* background-color: brown; */
-  margin: 2em 1.2em 0 1.2em;
-  text-align: center;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 1em;
 }
 .card-body:hover {
   /* background-color: brown; */
@@ -169,13 +253,15 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
   font-weight: bold;
-  color: #575997;
+  color: orange;
+  margin-right: 2em;
 }
 .nonactive-number {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
-  color: black
+  color: white;
+  margin-right: 2em;
 }
 .nonactive-number:hover {
   cursor: pointer;

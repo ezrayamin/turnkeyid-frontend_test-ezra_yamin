@@ -16,13 +16,13 @@ const Pagination = ({ dataPerPage, totalData, changePage, current }) => {
     }
 
     return (
-        <ListGroup horizontal>
+        <ListGroup horizontal style={{display: 'flex', justifyContent: 'center'}}>
             {pageNumbers.map(number => {
                 return (
-                    <ListGroup.Item className={current === number ? "active-number" : "nonactive-number"}
+                    <div className={current === number ? "active-number" : "nonactive-number"}
                         onClick={() => identifyActivePage(number)} key={number}>
                         {number}
-                    </ListGroup.Item>
+                    </div>
                 )
             })}
         </ListGroup>
@@ -30,23 +30,3 @@ const Pagination = ({ dataPerPage, totalData, changePage, current }) => {
 
 }
 export default Pagination
-
-// const searchNames = (char) => {
-//     console.log(char)
-//     let tempData = shownData
-
-//     tempData.filter((users) => {
-//       let firstName = users.name.first.toLowerCase()
-//       let lastName = users.name.last.toLowerCase()
-//       if (char === "") {
-//         return users
-//       } else if (firstName.includes(char.toLowerCase()) || lastName.includes(char.toLowerCase())) {
-//         console.log('users', users)
-//         tempData = users
-//       }
-//     })
-
-//     console.log('after filter', tempData)
-
-//     setShownData(tempData)
-//   }
