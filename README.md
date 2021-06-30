@@ -29,7 +29,7 @@ Launches the test runner in the interactive watch mode.
 # How to use this app
 available features:
 - landing page
-![Screenshot (51)](https://user-images.githubusercontent.com/73160378/123950914-130f0400-d959-11eb-8c3d-5e9bb10d878d.png)
+![Screenshot (55)](https://user-images.githubusercontent.com/73160378/123951153-55d0dc00-d959-11eb-85cf-b2f13a22b649.png)
 - login page
 ![Screenshot (52)](https://user-images.githubusercontent.com/73160378/123950949-1904e500-d959-11eb-91c8-aa6423213d44.png)
 - organization's personnel dashboard (CRUD)
